@@ -1,0 +1,7 @@
+{
+  "generator-jhipster:5.8.1": {
+    "promptValues": {
+      "packageName": "com.srs.jh"
+    }
+  }
+}
