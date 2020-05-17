@@ -1,0 +1,28 @@
+@startuml "Integrating webapp / mobile with Jitsi"
+
+hide footbox
+skinparam handwritten true
+
+actor "Hospital\nAdmin" as hoad #LightCoral
+participant "Priism\nwebsite" as prws #LightSeaGreen
+participant "Jitsi\nPlatform" as jtsi #LightSteelBlue
+participant "Call\nRecorder\n(UTube)" as care #LightSlateGray
+actor "NABH\nUser" as nusr #SteelBlue
+
+autonumber
+hoad --> hoad : Launches the Priism NABH mobile app \n or Starts conference from Prism website 
+note right : Uses Jitsi platform apis
+prws --> prws : Initialize a new conference\n@cid:17052020:MRI-Inspection w Video
+prws --> jtsi : <color:green>Create New Conference\n@cid:17052020:MRI-Inspection
+prws --> care : Initiates call recording for \n@cid:17052020:MRI-Inspection
+prws --> nusr : Sends invites to NABH User via mail/notification\n@cid:17052020:MRI-Inspection
+prws --> prws : Waits for NABH User to join
+nusr --> prws : <color:steelblue>Login to Priism NABH Website or Mobile App
+nusr --> prws : Joins the conference \n@cid:17052020:MRI-Inspection w Video 
+prws --> prws : Inspection via Video call starts 
+nusr --> prws : <color:steelblue>Finishes the Inspection & drops off the call
+hoad --> prws : Closes the conference
+prws --> jtsi : <color:green>Closes the conference Session
+hoad --> care : Verifies the recording for conference\n@cid:17052020:MRI-Inspection\nand downloads the video as necessary
+
+@enduml
