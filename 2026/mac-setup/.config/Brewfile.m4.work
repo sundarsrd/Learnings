@@ -1,0 +1,588 @@
+# --Pre-reqs - Tools, Libs ---------------------------------------------------------------------------------------------
+# https://formulae.brew.sh/formula/gh#default
+# GitHub command-line tool
+brew "gh"
+brew "git"
+
+# https://formulae.brew.sh/formula/eget#default
+# Easily install prebuilt binaries from GitHub
+brew "eget"
+
+# https://formulae.brew.sh/cask/git-credential-manager#default
+# Git Credential Manager (GCM) is a secure Git credential helper built on .NET that
+# cask "git-credential-manager"
+
+# https://formulae.brew.sh/cask/github#default
+# Desktop client for GitHub repositories
+cask "github"
+
+# https://github.com/romankurnovskii/homebrew-awesome-brew
+# https://github.com/romankurnovskii/BrewMate
+# A curated list of awesome Homebrew packages and casks. Contribute to romankurnovskii/awesome-brew development by creating an account on GitHub.
+# BrewMate is a command-line tool that helps you manage your Homebrew packages and casks. It provides an easy way to keep track of your installed packages, update them, and clean up old versions. 
+tap "romankurnovskii/awesome-brew"
+cask "brewmate"
+
+# https://github.com/Homebrew/homebrew-services/tree/master?tab=readme-ov-file
+# Homebrew services is a convenient method of starting Homebrew-installed services using the macOS launchctl manager. It allows you to easily manage background services that are installed via Homebrew, such as databases, web servers, and other daemons.
+# tap "homebrew/services"
+
+# https://formulae.brew.sh/formula/telnet#default
+# Telnet client and server
+brew "telnet"
+
+# --Terminal & Shell-------------------------------------------------------------------
+
+# https://formulae.brew.sh/cask/iterm2#default
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+
+# https://formulae.brew.sh/formula/zsh#default
+# Z shell
+brew "zsh"
+# Install Oh-My-Zsh, https://ohmyz.sh/#install
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# https://formulae.brew.sh/formula/zsh-autosuggestions#default
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+
+# https://formulae.brew.sh/formula/zsh-syntax-highlighting#default
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+
+# https://formulae.brew.sh/formula/spaceship#default
+# Zsh prompt for Astronauts
+brew "spaceship"
+
+# https://formulae.brew.sh/formula/starship#default
+# Cross-shell prompt for astronauts
+# brew "starship"
+
+# https://formulae.brew.sh/formula/neovim#default
+# Ambitious Vim-fork focused on extensibility and agility
+brew "nvim"
+
+# https://formulae.brew.sh/cask/visual-studio-code#default
+# Visual Studio Code is a source-code editor made by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring.
+cask "visual-studio-code"
+
+# https://formulae.brew.sh/formula/graphviz#default
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+
+# https://formulae.brew.sh/formula/qt#default
+# Cross-platform application and UI framework
+brew "qt"
+
+# https://formulae.brew.sh/formula/qalculate-qt#default
+# Multi-purpose desktop calculator
+brew "qalculate-qt"
+
+# https://formulae.brew.sh/formula/libqalculate#default
+# Library for Qalculate! program
+brew "libqalculate"
+
+# https://formulae.brew.sh/formula/podman#default
+# Tool for managing OCI containers and pods
+brew "podman"
+
+# https://formulae.brew.sh/cask/podman-desktop#default
+# Browse, manage, inspect containers and images
+cask "podman-desktop"
+
+# https://formulae.brew.sh/formula/podman-compose#default
+# Docker Compose compatibility for Podman
+brew "podman-compose"
+
+# https://formulae.brew.sh/formula/lnav#default
+# Log file navigator and viewer
+brew "lnav"
+
+# https://formulae.brew.sh/formula/plantuml#default
+# PlantUML is a tool to create UML diagrams from text
+brew "plantuml"
+
+# https://formulae.brew.sh/formula/wget#default 
+# Internet file retriever
+brew "wget"
+
+# https://formulae.brew.sh/formula/yt-dlp#default
+# YouTube downloader
+brew "yt-dlp"
+
+# https://formulae.brew.sh/cask/background-music#default
+# Background Music is a macOS audio utility that automatically pauses your music, ducking the volume of other apps, when other audio starts playing. It also allows you to set individual volume levels for each of your apps.
+cask "background-music"
+
+# https://formulae.brew.sh/cask/bruno#default
+# Bruno is a powerful, open-source, and free database client for developers and data analysts. It provides an intuitive interface for managing and querying databases, making it easier to work with various database systems.
+cask "bruno"
+
+# https://formulae.brew.sh/cask/dbeaver-community#default
+# DBeaver Community Edition is a free, open-source, universal database tool for developers and
+cask "dbeaver-community"
+
+# https://formulae.brew.sh/cask/devtoys#default
+# Utilities designed to make common development tasks easier
+cask "devtoys"
+
+# https://formulae.brew.sh/cask/font-awesome-terminal-fonts#default
+# Awesome Terminal Fonts
+cask "font-fontawesome"
+cask "font-awesome-terminal-fonts"
+cask "font-fira-code-nerd-font"
+cask "font-fira-mono-nerd-font"
+cask "font-powerline-symbols"
+
+# https://terminaltrove.com/ktea/
+# An Apache Kafka TUI client.
+brew "jonas-grgt/ktea/ktea"
+
+# --CLI, TUI, Tools, and Utilities--------------------------------------------------------------------------------------
+# TUI treasure trove
+# https://terminaltrove.com/language/go/
+# https://terminaltrove.com/
+
+# https://terminaltrove.com/gonzo/
+# The Go based TUI log analysis tool.
+brew "gonzo"
+
+# https://terminaltrove.com/sidecar/
+# A TUI dashboard for AI coding agents.
+brew "marcus/tap/sidecar"
+
+# https://terminaltrove.com/pam/
+# A minimal CLI tool for managing and executing SQL queries with a TUI.
+# eget eduardofuncao/pam
+
+# https://terminaltrove.com/ec/
+# An easy terminal native 3-way git conflict resolver.
+# brew "chojs23/tap/ec"
+
+# https://terminaltrove.com/envdiff/
+# A CLI tool to snapshot and diff environments.
+
+# https://terminaltrove.com/qo/
+# An interactive minimalist TUI to query JSON, CSV, and TSV using SQL.
+# kiki-ki/tap/qo
+
+# https://terminaltrove.com/msgvault/
+# A tool to archive a lifetime of email with analytics and search in milliseconds, entirely offline.
+# eget wesm/msgvault
+
+# https://terminaltrove.com/vhs/
+# Your CLI home video recorder.
+# brew "vhs"
+
+# https://terminaltrove.com/pomo/
+# A terminal Pomodoro Timer.
+# eget Bahaaio/pomo
+
+# https://terminaltrove.com/trex/
+# A terminal app for RegEx visualization, 🦖 roar!
+# go install github.com/samyakbardiya/trex@latest
+
+# https://terminaltrove.com/tz/
+# A terminal based timezone helper, CLI time zone visualizer
+brew "tz"
+
+# https://formulae.brew.sh/formula/fx#default
+# Terminal JSON viewer
+brew "fx"
+
+# https://formulae.brew.sh/formula/portal#default
+# Quick and easy command-line file transfer utility from any computer to another
+brew "portal"
+
+# https://formulae.brew.sh/formula/jira-cli 
+# Feature-rich interactive Jira CLI
+brew "jira-cli"
+
+# https://terminaltrove.com/logshark/
+# A CLI / TUI debugger for JSON logs.
+# eget ugosan/logshark
+
+# https://terminaltrove.com/sttr/
+# https://formulae.brew.sh/formula/sttr#default
+brew "sttr"
+
+# https://formulae.brew.sh/formula/restic#default
+# Fast, efficient and secure backup program
+brew "restic"
+
+# https://terminaltrove.com/cashd/
+# A fast and cozy TUI for personal finance management.
+# eget hzqtc/cashd
+
+# https://terminaltrove.com/nap/
+# https://formulae.brew.sh/formula/nap#default
+# Code snippets in your terminal
+brew "nap"
+
+# https://terminaltrove.com/rclone/
+# https://formulae.brew.sh/formula/rclone#default
+# rsync for cloud storage
+brew "rclone"
+
+# https://terminaltrove.com/fzf/
+# A command-line fuzzy finder
+brew "fzf"
+
+# https://terminaltrove.com/mult/
+# Run a command multiple times and glance at the outputs.
+brew "dhth/tap/mult"
+
+# https://formulae.brew.sh/formula/sampler
+# Tool for shell commands execution, visualization and alerting
+brew "sampler"
+
+# https://terminaltrove.com/loggo/
+# https://github.com/aurc/loggo
+# Log & Go is a rich Terminal User Interface app
+brew "aurc/loggo/loggo"
+
+# https://terminaltrove.com/textql/
+# Execute SQL against structured text like CSV or TSV
+# brew "textql"
+
+# https://terminaltrove.com/resto/
+# Send pretty HTTP & API requests with TUI.
+
+# https://terminaltrove.com/httpmonitor/
+# A small TUI application to monitor a single or multiple targets.
+# eget ricoberger/httpmonitor
+
+# https://formulae.brew.sh/formula/lazysql#default
+# A cross-platform TUI database management tool.
+brew "lazysql"
+
+# https://terminaltrove.com/fq/
+# jq for binary formats.
+# brew "wader/tap/fq"
+
+# https://terminaltrove.com/scc/
+# A very fast accurate code counter with complexity calculations.
+
+# https://formulae.brew.sh/formula/jq#default
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# https://terminaltrove.com/jqp/
+# A TUI playground to experiment with jq.
+brew "jqp"
+
+# https://formulae.brew.sh/formula/sq#default
+# https://terminaltrove.com/sq/
+brew "sq"
+
+# https://formulae.brew.sh/formula/htop#default
+# Improved top (interactive process viewer)
+brew "htop"
+
+# https://github.com/aristocratos/btop
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+
+# https://formulae.brew.sh/formula/gdu#default
+# Disk usage analyzer with console interface written in Go
+brew "gdu"
+
+# https://formulae.brew.sh/formula/fzf#default
+# Command-line fuzzy finder written in Go
+brew "fzf"
+
+# https://formulae.brew.sh/formula/duf#default
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
+
+# https://formulae.brew.sh/formula/exif#default
+# Read, write, modify, and display EXIF data on the command-line
+brew "exiftool"
+
+# https://formulae.brew.sh/formula/ffmpeg#default
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+
+# https://formulae.brew.sh/formula/dateutils#default
+# Tools to manipulate dates with a focus on financial data
+brew "dateutils"
+
+# https://jpeg.org/jpegxl/index.html
+## New file format for still image compression
+# brew "jpeg-xl"
+
+# https://formulae.brew.sh/formula/azure-cli#default
+# Cli for Azure dev., sdk
+brew "azure-cli"
+
+# https://formulae.brew.sh/formula/bat#default
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+
+# https://terminaltrove.com/tock/
+# A powerful time tracking tool for the command line.
+brew "kriuchkov/tap/tock"
+
+# https://terminaltrove.com/nerdlog/
+# A fast, remote-first, multi-host TUI log viewer.
+# brew "nerdlog"
+
+# https://terminaltrove.com/tuios/
+# A TUI window manager for managing multiple terminal sessions.
+# eget Gaurav-Gosain/tuios
+
+# https://terminaltrove.com/bbrew/
+# A Homebrew TUI Manager.
+brew "Valkyrie00/homebrew-bbrew/bbrew"
+
+# https://terminaltrove.com/wuzz/
+# An interactive TUI tool for HTTP inspection.
+# eget asciimoo/wuzz
+
+# https://terminaltrove.com/hishtory/
+# Your shell history: synced, queryable, and in context.
+# eget ddworken/hishtory
+
+# https://terminaltrove.com/updo/
+# Uptime monitoring CLI tool with alerting and advanced settings.
+# eget Owloops/updo
+
+# https://terminaltrove.com/csvi/
+# A simple cross-platform terminal CSV editor.
+# eget hymkor/csvi
+
+# https://terminaltrove.com/gitid/
+# Manage multiple Git identities through a TUI.
+brew "brandonyoungdev/tldx/tldx"
+
+# https://terminaltrove.com/gobackup/
+# A CLI tool to backup your databases, files to cloud storage.
+
+# https://terminaltrove.com/bit/
+# Terminal ANSI Logo Designer & Font Library.
+
+# https://terminaltrove.com/octosql/
+# A CLI tool which lets you query a plethora of databases.
+brew "cube2222/octosql/octosql"
+
+# --Development---------------------------------------------------------------------------
+## Java
+# https://formulae.brew.sh/formula/jenv
+# Manage your Java environment
+brew "jenv"
+
+# https://formulae.brew.sh/formula/openjdk#default
+# Development kit for the Java programming language
+brew "openjdk"
+brew "openjdk@11"
+
+# https://formulae.brew.sh/cask/graalvm-jdk#default
+# GraalVM JDK is a high-performance JDK that can run applications written in Java, Scala, Kotlin, and other JVM languages.
+# cask "graalvm-jdk"
+
+# https://formulae.brew.sh/formula/jhipster#default
+# Generate, develop and deploy Spring Boot + Angular/React applications
+brew "jhipster"
+
+# https://formulae.brew.sh/formula/jmeter#default
+# Load testing and performance measurement application
+brew "jmeter"
+
+## Python
+
+# https://formulae.brew.sh/formula/python@3.14#default
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+brew "python@3.14"
+
+# https://formulae.brew.sh/formula/pyinstaller#default
+# Bundle a Python application and all its dependencies
+brew "pyinstaller"
+
+# https://formulae.brew.sh/formula/uv#default
+# Python package manager
+brew "uv"
+
+# https://formulae.brew.sh/formula/python-tk@3.14#default
+brew "python-tk@3.14"
+# https://formulae.brew.sh/formula/python-tk@3.10#default
+brew "python-tk@3.10"
+
+# https://formulae.brew.sh/formula/jupyterlab#default
+# Interactive environments for writing and running code
+brew "jupyterlab"
+
+# https://formulae.brew.sh/formula/pyenv#default 
+# Python version management
+brew "pyenv"
+
+# https://formulae.brew.sh/formula/poetry#default
+# Python dependency management and packaging tool
+brew "poetry"
+
+# https://formulae.brew.sh/formula/numpy#default
+# Package for scientific computing with Python
+brew "numpy"
+
+## Javascript, Typescript, Node.js
+
+# https://formulae.brew.sh/formula/node#default
+# Event-driven I/O framework for the JavaScript programming language
+brew "node"
+
+# https://formulae.brew.sh/formula/yarn#default
+# JavaScript package manager
+brew "yarn"
+
+# https://formulae.brew.sh/formula/pnpm#default
+# Fast, disk space efficient package manager
+brew "pnpm"
+
+# https://terminaltrove.com/rum/
+# A TUI to list, search and run package.json scripts.
+# eget thekarel/rum
+
+## Databases
+
+# https://formulae.brew.sh/formula/postgresql@18#default
+# PostgreSQL database system
+brew "postgresql@18"
+
+# --GenAI & Agentic--------------------------------------------------------------------------------------
+
+## Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
+
+## The AI coding agent built for the terminal.
+tap "anomalyco/tap"
+brew "anomalyco/tap/opencode"
+
+# https://formulae.brew.sh/cask/opencode-desktop#default
+# AI coding agent desktop client
+cask "opencode-desktop"
+
+# https://formulae.brew.sh/formula/llmfit#default
+# Find what models run on your hardware
+brew "llmfit"
+
+# https://formulae.brew.sh/formula/ollama#default
+# Local LLM runner
+brew "ollama"
+cask "ollama-app"
+
+# https://formulae.brew.sh/formula/opencode#default
+# Open source implementation of the OpenAI API
+brew "opencode"
+
+# https://formulae.brew.sh/formula/openvino#default
+# Open Visual Inference And Optimization toolkit for AI inference
+brew "openvino"
+
+# https://formulae.brew.sh/cask/claude#default
+# Anthropic's official Claude AI desktop app
+cask "claude"
+
+# https://formulae.brew.sh/cask/claude-code#default
+# Terminal-based AI coding assistant
+cask "claude-code"
+
+# https://formulae.brew.sh/cask/codex#default
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+
+## --Frameworks & Libraries--------------------------------------------------------------------------------------
+# https://github.com/elastic/homebrew-tap
+# tap "elastic/tap"
+
+# https://formulae.brew.sh/formula/angular-cli#default
+# CLI tool for Angular
+# brew "angular-cli"
+
+# https://formulae.brew.sh/formula/aom
+# Codec library for encoding and decoding AV1 video streams
+# brew "aom" 
+
+# https://www.gnu.org/software/bash/
+# Bourne-Again SHell, a UNIX command interpreter
+# brew "bash"
+
+# https://formulae.brew.sh/formula/bear#default
+# Generate compilation database for clang tooling
+# brew "bear"
+
+# https://formulae.brew.sh/formula/cmake#default
+# Cross-platform make
+# brew "cmake"
+
+# https://formulae.brew.sh/formula/docker-compose#default
+# Isolated development environments using Docker
+# brew "docker-compose"
+
+# https://formulae.brew.sh/formula/unbound#default
+# Validating, recursive, caching DNS resolver
+# brew "unbound"
+
+# https://formulae.brew.sh/formula/gnutls#default
+# GNU Transport Layer Security (TLS) Library
+# brew "gnutls"
+
+# https://formulae.brew.sh/formula/harfbuzz#default
+# OpenType text shaping engine
+# brew "harfbuzz"
+
+# https://formulae.brew.sh/formula/libass#default
+# Subtitle renderer for the ASS/SSA subtitle format
+# brew "libass"
+
+# https://formulae.brew.sh/formula/libmicrohttpd#default
+# Light HTTP/1.1 server library
+# brew "libmicrohttpd"
+
+#https://formulae.brew.sh/formula/tesseract#default
+# OCR (Optical Character Recognition) engine
+# brew "tesseract"
+
+# https://formulae.brew.sh/formula/libavif#default
+# Library for encoding and decoding .avif files
+# brew "libavif"
+
+# https://formulae.brew.sh/formula/gnuplot#default
+# Command-driven, interactive function plotting
+# brew "gnuplot"
+
+# https://formulae.brew.sh/formula/librsvg#default
+# Library to render SVG files using Cairo
+# brew "librsvg"
+
+# https://formulae.brew.sh/formula/scrapy#default
+# Web crawling & scraping framework
+# brew "scrcpy"
+
+# https://formulae.brew.sh/formula/openblas#default
+# Optimized BLAS library
+# brew "openblas"
+
+# https://formulae.brew.sh/cask/react-studio#default
+# App design environment - intel mac / rosetto
+# cask "react-studio"
+
+# https://formulae.brew.sh/cask/speedcrunch# 
+# SpeedCrunch is a high-precision scientific calculator with a simple interface and powerful features. It supports a wide range of mathematical functions, including trigonometry, logarithms, and complex numbers, making it ideal for students, engineers, and anyone who needs to perform complex calculations quickly and accurately.
+# cask "speedcrunch"
+
+# https://formulae.brew.sh/cask/temurin# 
+# Temurin is a high-quality, TCK-certified OpenJDK distribution. It is the successor to AdoptOpenJDK and provides Java developers with a reliable and secure Java runtime environment for their applications.
+# cask "temurin"
+# cask "temurin@11"
+# cask "temurin@17"
+# cask "temurin@19"
+# cask "temurin@21"
+# cask "temurin@8"
+
+# https://formulae.brew.sh/cask/visualdiffer#default
+# VisualDiffer is a powerful file comparison tool that allows you to easily compare and analyze differences between files and directories. It provides a user-friendly interface with side-by-side comparisons, highlighting differences in content, structure, and metadata. With VisualDiffer, you can quickly identify changes, merge files, and synchronize directories, making it an essential tool for developers, writers, and anyone who needs to manage and compare files efficiently.
+cask "visualdiffer"
+
+# https://github.com/bytedance/trae-agent
+# Trae Agent is an LLM-based agent for general purpose software engineering tasks.
+# uv "trae-agent"

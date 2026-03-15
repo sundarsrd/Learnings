@@ -1,0 +1,12 @@
+/System/Volumes/Data/Library/Application Support/GarageBand
+/System/Volumes/Data/Library/Application Support/Logic
+/System/Volumes/Data/Library/Audio/Apple Loops/Apple
+/Applications/GarageBand
+/Library/Application Support/GarageBand
+/Library/Audio/Apple Loops/Apple/Apple Loops for GarageBand
+/Library/Receipts/com.apple.pkg.GarageBand_AppStore.bom
+/Library/Receipts/com.apple.pkg.GarageBand_AppStore.plist
+/System/Library/Receipts/com.apple.pkg.MAContent10_AssetPack_0325_AppleLoopsGarageBand1.bom
+/System/Library/Receipts/com.apple.pkg.MAContent10_AssetPack_0325_AppleLoopsGarageBand1.plist
+~/Library/Application Scripts/com.apple.STMExtension.GarageBand
+~/Library/Containers/com.apple.STMExtension.GarageBand

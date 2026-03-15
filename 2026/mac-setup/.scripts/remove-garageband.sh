@@ -1,0 +1,1 @@
+xargs trash < ../.config/garageband-files-to-delete.txt

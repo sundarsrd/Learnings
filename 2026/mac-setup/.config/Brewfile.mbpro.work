@@ -1,0 +1,207 @@
+# https://github.com/elastic/homebrew-tap
+# tap "elastic/tap"
+
+# https://github.com/Homebrew/homebrew-services/tree/master?tab=readme-ov-file
+# tap "homebrew/services"
+
+# https://formulae.brew.sh/formula/angular-cli#default
+# CLI tool for Angular
+brew "angular-cli"
+
+# https://jpeg.org/jpegxl/index.html
+# New file format for still image compression
+# brew "jpeg-xl"
+
+# https://formulae.brew.sh/formula/aom
+# brew "aom" 
+
+# https://formulae.brew.sh/formula/azure-cli#default
+brew "azure-cli"
+
+# https://www.gnu.org/software/bash/
+# brew "bash"
+
+# https://formulae.brew.sh/formula/bat#default
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+
+# https://formulae.brew.sh/formula/bear#default
+# Generate compilation database for clang tooling
+# brew "bear"
+
+# https://formulae.brew.sh/formula/cmake#default
+# Cross-platform make
+# brew "cmake"
+
+# https://formulae.brew.sh/formula/dateutils#default
+# Tools to manipulate dates with a focus on financial data
+brew "dateutils"
+
+# https://formulae.brew.sh/formula/docker-compose#default
+# Isolated development environments using Docker
+# brew "docker-compose"
+
+# https://formulae.brew.sh/formula/duf#default
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
+
+# https://formulae.brew.sh/formula/exif#default
+# Read, write, modify, and display EXIF data on the command-line
+brew "exiftool"
+
+# https://formulae.brew.sh/formula/unbound#default
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+
+# https://formulae.brew.sh/formula/gnutls#default
+# GNU Transport Layer Security (TLS) Library
+# brew "gnutls"
+
+# https://formulae.brew.sh/formula/harfbuzz#default
+# OpenType text shaping engine
+# brew "harfbuzz"
+
+# https://formulae.brew.sh/formula/libass#default
+# Subtitle renderer for the ASS/SSA subtitle format
+# brew "libass"
+
+# https://formulae.brew.sh/formula/libmicrohttpd#default
+# Light HTTP/1.1 server library
+brew "libmicrohttpd"
+
+#https://formulae.brew.sh/formula/tesseract#default
+# OCR (Optical Character Recognition) engine
+# brew "tesseract"
+
+# https://formulae.brew.sh/formula/ffmpeg#default
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+
+# https://formulae.brew.sh/formula/fzf#default
+# Command-line fuzzy finder written in Go
+brew "fzf"
+
+# https://formulae.brew.sh/formula/libavif#default
+# Library for encoding and decoding .avif files
+# brew "libavif"
+
+# https://formulae.brew.sh/formula/gdu#default
+# Disk usage analyzer with console interface written in Go
+brew "gdu"
+
+brew "gemini-cli"
+
+# https://formulae.brew.sh/formula/gh#default
+# GitHub command-line tool
+brew "gh"
+brew "git"
+
+# https://formulae.brew.sh/formula/qt#default
+# Cross-platform application and UI framework
+# brew "qt"
+
+# https://formulae.brew.sh/formula/gnuplot#default
+# Command-driven, interactive function plotting
+# brew "gnuplot"
+
+# https://formulae.brew.sh/formula/librsvg#default
+# Library to render SVG files using Cairo
+# brew "librsvg"
+
+# https://formulae.brew.sh/formula/graphviz#default
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+
+brew "jenv"
+brew "openjdk"
+brew "jhipster"
+brew "jmeter"
+brew "jq"
+brew "python@3.14"
+
+# https://formulae.brew.sh/formula/jupyterlab#default
+# Interactive environments for writing and running code
+brew "jupyterlab"
+
+# https://formulae.brew.sh/formula/libqalculate#default
+# Library for Qalculate! program
+brew "libqalculate"
+
+brew "llmfit"
+brew "lnav"
+brew "node@20"
+brew "openblas"
+brew "numpy", link: false
+brew "ollama"
+
+brew "opencode"
+brew "openjdk@11"
+
+# https://formulae.brew.sh/formula/openvino#default
+# Open Visual Inference And Optimization toolkit for AI inference
+brew "openvino"
+
+brew "plantuml"
+brew "poetry"
+brew "postgresql@18"
+brew "pyenv"
+
+# https://formulae.brew.sh/formula/pyinstaller#default
+# Bundle a Python application and all its dependencies
+brew "pyinstaller"
+
+brew "python@3.10"
+brew "python-tk@3.10"
+
+# https://formulae.brew.sh/formula/qalculate-qt#default
+# Multi-purpose desktop calculator
+brew "qalculate-qt"
+
+# https://formulae.brew.sh/formula/scrapy#default
+# Web crawling & scraping framework
+# brew "scrcpy"
+
+brew "spaceship"
+brew "starship"
+brew "telnet"
+brew "uv"
+brew "wget"
+brew "yarn"
+brew "yt-dlp"
+brew "zsh"
+
+cask "android-platform-tools"
+cask "background-music"
+cask "bruno"
+cask "dbeaver-community"
+
+# https://formulae.brew.sh/cask/devtoys#default
+# Utilities designed to make common development tasks easier
+cask "devtoys"
+
+# cask "git-credential-manager"
+cask "graalvm-jdk"
+cask "podman-desktop"
+cask "react-studio"
+# cask "speedcrunch"
+
+# cask "temurin"
+# cask "temurin@11"
+# cask "temurin@17"
+# cask "temurin@19"
+# cask "temurin@21"
+# cask "temurin@8"
+
+cask "visualdiffer"
+
+# cask "warp"
+# cask "zed"
+
+# https://github.com/bytedance/trae-agent
+# Trae Agent is an LLM-based agent for general purpose software engineering tasks.
+# uv "trae-agent"
+brew tap romankurnovskii/awesome-brew
+brew install --cask iterm2
+brew install romankurnovskii/awesome-brew/brewmate
+brew install nvim
+brew install --cask visual-studio-code
